@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!-- Kendra Brauer
+ICT-4570-1 Webscripting with JavaScript
+week 10 Final Project: Fictional Library
+Summer Quarter 2020
+index.html -->
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Brauer Library</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css"/>
+</head>
+<body>
+    <nav>
+        <ul class="nav d-flex justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="index.html">Search</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Research Help</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Collections</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Archives</a>
+            </li>
+        </ul>
+    </nav>
+<main>
+<div class="container">
+<h1 class="d-flex justify-content-center">Brauer Library</h1>
+<div class="container" id="search">
+    <div class="input-group mb-3">
+        <label for="input" id="searchLabel">Search: </label>
+        <input type="text" class="form-control" id="searchText" placeholder="title, author name, publish year, or isbn" aria-label="" aria-describedby="">
+        <div class="input-group-append">
+            <button class="btn btn-outline-secondary" id="searchButton" type="button">Submit</button>
+        </div>
+    </div>
+</div>
+<div class="container d-flex justify-content-center">
+    <div id="search-results"></div>
+    <ul class="container" id="ul"></ul>
+</div>
+</main>
+    <footer class="footer">
+        <div class="container d-flex justify-content-center">
+            <span class="text-muted">University of Denver ICT-4570 Final Project</span>
+        </div>
+    </footer>
+    <script src="js/finalProject.js"></script>
+</body>
+</html>

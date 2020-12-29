@@ -1,0 +1,66 @@
+/* Kendra Brauer
+ICT-4570-1 Webscripting with JavaScript
+week 10 Final Project: Fictional Library
+Summer Quarter 2020
+styles.css */
+
+
+body {
+    background-color: #c5e4e9;
+    color: #055054;
+}
+
+h1 {
+    color: #055054;
+    font-weight: bold;
+    font-size: 48px;
+    text-shadow: 1px 1px 2px #7a9de7, 0 0 25px #7a9de7, 0 0 5px #7a9de7;
+}
+
+nav {
+    padding: 20px;
+}
+
+.nav-link {
+    color: #055054;
+
+}
+
+a.nav-link.active {
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #7a9de7;
+}
+
+#search {
+    width: 800px;
+    margin-top: 35px;
+}
+
+ #searchLabel {
+     font-weight: bold;
+     padding: 6px;
+ }
+
+#searchButton:hover {
+    background-color: #7a9de7;
+}
+
+#search-results {
+    padding: 20px;
+    width: 800px;
+
+}
+
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: #f5f5f5;
+
+}
